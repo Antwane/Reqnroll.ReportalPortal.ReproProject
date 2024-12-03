@@ -1,0 +1,15 @@
+{
+  "$schema": "https://raw.githubusercontent.com/reportportal/agent-dotnet-reqnroll/master/src/ReportPortal.ReqnrollPlugin/ReportPortal.config.schema",
+  "enabled": true,
+  "server": {
+    "url": "https://rp.epam.com",
+    "project": "default_project",
+    "apiKey": "7853c7a9-7f27-43ea-835a-cab01355fd17"
+  },
+  "launch": {
+    "name": "Reqnroll Demo Launch",
+    "description": "this is description",
+    "debugMode": true,
+    "attributes": [ "t1", "os:win10" ]
+  }
+}
